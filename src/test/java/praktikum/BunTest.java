@@ -7,6 +7,7 @@ import org.junit.runners.Parameterized;
 
 @RunWith(Parameterized.class)
 public class BunTest {
+
     Bun bun;
     private String nameBun;
     private float priceBun;
@@ -30,6 +31,7 @@ public class BunTest {
     @Test
     public void getNameTest() {
         Bun bun = new Bun(this.nameBun, this.priceBun);
+
         String expected = this.nameBun;
         String actual = bun.getName();
         Assert.assertEquals(expected, actual);

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="0" name="praktikum.BurgerTest" time="1.037" errors="0" skipped="0">
+<testsuite tests="6" failures="0" name="praktikum.BurgerTest" time="1.052" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2022.2.3"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -65,9 +65,10 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase classname="praktikum.BurgerTest" name="addIngredientTest" time="0.707"/>
-  <testcase classname="praktikum.BurgerTest" name="moveIngredientTest" time="0.134"/>
-  <testcase classname="praktikum.BurgerTest" name="RemoveIngredientTest" time="0.004"/>
-  <testcase classname="praktikum.BurgerTest" name="getReceiptTest" time="0.048"/>
-  <testcase classname="praktikum.BurgerTest" name="checkSetBuns" time="0.144"/>
+  <testcase classname="praktikum.BurgerTest" name="addIngredientTest" time="0.621"/>
+  <testcase classname="praktikum.BurgerTest" name="moveIngredientTest" time="0.293"/>
+  <testcase classname="praktikum.BurgerTest" name="RemoveIngredientTest" time="0.006"/>
+  <testcase classname="praktikum.BurgerTest" name="getReceiptTest" time="0.118"/>
+  <testcase classname="praktikum.BurgerTest" name="checkSetBuns" time="0.01"/>
+  <testcase classname="praktikum.BurgerTest" name="checkingGetPrice" time="0.004"/>
 </testsuite>
